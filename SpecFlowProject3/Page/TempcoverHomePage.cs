@@ -14,9 +14,9 @@ namespace SpecFlowProject3.Page
         private static string TempcoverUrl = "https://www.tempcover.com";
         private Interactions _interactions;
 
-        private static string PageTitleH1Heading => "//section[@id=\"FrontPageCTA\"]//h1";
+        private static string PageTitleH1Heading => "xpath=//section[@id='MainCTA']//h1";
 
-        private static string CookieConsentButton => "CookieConsentButton";
+        private static string CookieConsentButton => "#CookieConsentButton";
 
         private static string temporaryVanInsuranceQuote => "ProductTileVan";
 

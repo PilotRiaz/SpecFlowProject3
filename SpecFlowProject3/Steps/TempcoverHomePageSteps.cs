@@ -19,12 +19,14 @@ namespace SpecFlowProject3.Steps
         public async Task GivenINavigateToTempcoverWebsite()
         {
             await tempcoverHomePage.GoToURL();
+            await tempcoverHomePage.ClickCookieConsent();
         }
         
         [Then(@"I can see the HomePage")]
         public async Task ThenICanSeeTheHomePage()
         {
             await tempcoverHomePage.VerifyHomePageTitle();
+            
         }
     }
 }
