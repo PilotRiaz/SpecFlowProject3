@@ -1,0 +1,6 @@
+﻿{
+  "playwright": {
+    "browser": "chrome",
+    "headless": false
+  }
+}
